@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    /* font-family: sans-serif; */
+    /* padding: 2px; */
+}
+
+body {
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
+    color: white;
+}
+
+.task {
+    /* border: 2px solo red; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    /* to center */
+    width: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* glassy */
+    background: rgba(17, 3, 99, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(189, 189, 189, 0.37);
+    backdrop-filter: blur( 7px);
+    -webkit-backdrop-filter: blur( 7px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.icon {
+    font-size: 22px
+}
+
+.icon:hover {
+    font-size: 24px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icon-star,
+.icon-trash {
+    opacity: 0.4;
+}
+
+.icon-star:hover,
+.icon-trash:hover {
+    color: orange;
+    opacity: 1;
+}
+
+h2,
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 35vh;
+    font-size: 21px;
+    text-align: center;
+}
+
+
+/* unset button caracteristique */
+
+button {
+    all: unset;
+}
+
+.icon-plus {
+    font-size: 35px;
+    margin-top: 5px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.icon-plus:hover {
+    font-size: 38px;
+    transition: 0.4s;
+    color: rgb(0, 26, 255);
+}
+
+.donedorder {
+    transition: 0.9s;
+    border: 1.5px solid rgb(0 255 50);
+    background: rgb(45 255 7 / 49%);
+}
+
+.removedonedorder {
+    transition: 0.9s;
+    border: 1.5px solid rgb(255 0 0);
+    background: rgb(255 7 7 / 49%);
+}
+
+.iconorange {
+    color: orange;
+    opacity: 1;
+}
