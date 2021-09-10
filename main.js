@@ -52,7 +52,7 @@ container.addEventListener('click', (eo) => {
     }
     if (eo.target.className == ("icon-star icon")) {
         eo.target.classList.add("iconorange");
-        eo.target.order = "-1";
+        container.prepend(eo.target.parentNode);
 
     }
     // console.log("dd");
